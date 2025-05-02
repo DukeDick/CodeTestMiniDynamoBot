@@ -3,7 +3,7 @@
 #include "driver/uart.h"
 
 const char* ssid = "__";
-const char* password = "__3";
+const char* password = "__";
 
 const char* server_url = "http://192.___._.__:8000/get_command";  // Flask server on PC
 
