@@ -15,11 +15,11 @@
 #define LED_PIN 2
 
 // Wi-Fi credentials
-const char* ssid = "DREAMSLAB UNIFI";
-const char* password = "@DREAMSLAB2023";
+const char* ssid = "__";
+const char* password = "__";
 
 // micro-ROS agent IP and port
-const char* agent_ip = "192.168.0.23";
+const char* agent_ip = "__";
 const uint16_t agent_port = 8888;
 
 // micro-ROS entities
