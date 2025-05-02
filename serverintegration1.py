@@ -8,8 +8,8 @@ import string
 from threading import Thread
 
 # ============== Configuration ==============
-TELEGRAM_TOKEN = "7806066942:AAE2JNHBo5y5LinNB781Wmf79YqG6SuNkAY"
-DEEPGRAM_API_KEY = "56b7b14da2d4a3048c9b1d5e22072705fe9aca06"
+TELEGRAM_TOKEN = "__"
+DEEPGRAM_API_KEY = "__"
 
 app = Flask(__name__)
 bot = Bot(token=TELEGRAM_TOKEN)
