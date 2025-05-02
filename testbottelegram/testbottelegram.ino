@@ -6,9 +6,9 @@
 #include "string.h"
 
 // ======= Wi-Fi and Bot Setup =======
-const char* ssid = "Galaxy S10+ad41";
-const char* password = "ukgt8349";
-const char* botToken = "7806066942:AAE2JNHBo5y5LinNB781Wmf79YqG6SuNkAY";
+const char* ssid = "__";
+const char* password = "__";
+const char* botToken = "__";
 
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(botToken, secured_client);
