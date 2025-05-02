@@ -2,10 +2,10 @@
 #include <HTTPClient.h>
 #include "driver/uart.h"
 
-const char* ssid = "DREAMSLAB UNIFI";
-const char* password = "@DREAMSLAB2023";
+const char* ssid = "__";
+const char* password = "__3";
 
-const char* server_url = "http://192.168.0.18:8000/get_command";  // Flask server on PC
+const char* server_url = "http://192.___._.__:8000/get_command";  // Flask server on PC
 
 #define UART_2_TX 17
 #define UART_2_RX 16
